@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>NEWS</title>
+        <link rel="stylesheet" type="text/css" href="css/header.css">
+        <link href='http://fonts.googleapis.com/css?family=PT Sans' rel='stylesheet'>
+        <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+        <style>
+            nav a.news {
+                color:white;
+                font-weight:bold;
+            }            
+            li {
+                list-style-type:none;
+            }
+            article {
+                margin:40px 100px;
+                
+            }
+            main {
+                display: flex;
+            }
+            div.rowphoto {
+                display: flex;
+                flex-flow: row wrap;
+            }
+            img.item {
+                flex: 1 1 0px;
+                object-fit: contain;
+                max-height: 210px;
+            }
+            img {
+                margin-top: 3em;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="topnav">
+            <a class="home" href="home.html">HOME</a>
+            <a class="cv" href="cv.html">CV</a>
+            <a class="publication" href="publication.html">PUBLICATION</a>
+            <a class="news" href="news.html">NEWS</a>
+        </nav>
+        <main>
+            <article>
+                <a href="https://www.rug.nl/about-ug/latest-news/events/promoties/?hfId=119187">Yingfen's PhD Ceremony (Jan 17, 2020)</a>
+                <div class="rowphoto">
+                    <img class="item" alt="ceremony-1" src="images/ceremony-1.jpg">
+                    <img class="item" alt="ceremony-2" src="images/ceremony-2.jpg">
+                    <img class="item" alt="ceremony-3" src="images/ceremony-3.jpg">
+                </div>
+            </article>
+            <div class="divider"></div>     
+            <article>
+                <a href="https://www.eurekalert.org/pub_releases/2018-10/uog-nfb101918.php">News article about our work on new type of ferroelectrics - Hafnia-based thin films</a>
+                <img alt="News article about our work on new type of ferroelectrics - Hafnia-based thin films" src="images/eurealert.png">
+            </article>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>HOME</title>
+        <link rel="stylesheet" type="text/css" href="css/header.css">
+        <link href='http://fonts.googleapis.com/css?family=PT Sans' rel='stylesheet'>
+        <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+        <style>
+
+            nav a.home {
+                color:white;
+                font-weight:bold;
+            }
+
+            #self_intro {
+                margin-top:5em;
+            }
+            .divider {
+                flex-grow: 1;
+                border-bottom: 1px solid silver;
+                margin: 1rem 0;
+            }
+
+            article.twocolumns {
+                display:flex;
+                flex-flow: row wrap;
+                justify-content: space-around;
+                max-width: 100%;
+            }
+            #self_intro.twocolumns {
+                display:flex;
+                justify-content: flex-start;
+                max-width:70%;
+                margin:0;
+            }
+            #self_description{
+                align-self: center;
+                margin-left: 5em;
+            }
+            img {
+                flex: 0 1 0px;
+                object-fit: contain;
+                max-width: 48%;
+            }
+            div.paragraph {
+                flex: 1 1 0px;
+                min-width: 48%;
+                max-width: 48%;
+            }
+            .shorttext {
+                flex: 1 1 0px;
+                max-width: 32%;
+            }
+            h3 {
+                font-family: 'PT Sans', serif;
+            }
+            p {
+                font-family: 'Merriweather', serif;
+                max-width: 90%;
+            }
+            .emphasis {
+                font-weight: bold;
+            }
+            footer.article {
+                font-size: x-small;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="topnav">
+            <a class="home" href="home.html">HOME</a>
+            <a class="cv" href="cv.html">CV</a>
+            <a class="publication" href="publication.html">PUBLICATION</a>
+            <a class="news" href="news.html">NEWS</a>
+        </nav>
+        <main>
+            <div id="self_intro" class="twocolumns">
+                <img alt="A picture of Yingfen Wei" src="images/yingfen.jpg">
+                <div id="self_description" class="paragraph">
+                    <h3>Yingfen Wei</h3>
+                    <p>Postdoc, University of Groningen</p>
+                    <p>PhD, University of Groningen</p>
+                    <p><a href="https://scholar.google.com/citations?user=834fTPoAAAAJ&hl=en">Google Scholar</a> | <a href="https://scholar.google.com/citations?user=834fTPoAAAAJ&hl=en">Google Scholar</a></p>
+                </div>
+            </div>
+            <div class="divider"></div>     
+            <article class="twocolumns">
+                <div class="paragraph">
+                    <a href="https://www.rug.nl/research/portal/nl/publications/rhombohedral-hf05zr05o2-thin-films(7d5bdc6a-62d7-4221-ba08-234207398757).html">Rhombohedral Hf0.5Zr0.5O2 thin films: Ferroelectricity and Devices</a>
+                    <h4>Supervisor: Prof. B. Noheda </h4>
+                    <h4>Group: Nanostructures of Functional Oxides</h4>
+                    <br><br>
+                    <p>This thesis work during my PhD study at University of Groningen reports a new polar r-phase, with large polarization and robustness. According to the crystal studies on different substrates, specific guidelines are given on how to achieve this new ferroelectric r-phase in HZO thin films. Taking advantage of the great properties of HZO thin films with this new phase, the films were integrated as tunnel barriers into multiferroic tunnel junction. The properties of this device are studied, which give some insights for the future possible application.  
+                    </p>
+                    <br>
+                    <footer class="article">
+                        <p>ISBNs: 978-94-034-2234-3</p>
+                        <p>ISBNs: 978-94-034-2235-0 (electronic version)</p>
+                    </footer>
+                </div>
+                    <img alt="rhombohedral-hf05zr05o2-thin-films Ferroelectricity and device" src="images/rhombohedral.png">         
+            </article>
+            <div class="divider"></div>     
+            <article class="twocolumns">
+                <img alt="circuit and state curve of the device" src="images/multiferroic-tunnel-junctions.png">
+                <div class="paragraph">
+                    <h4>Multiferroic tunnel junctions</h4>
+                    <p>Multiferroic tunnel junctions (MFTJs), featuring a ferroelectric tunnel barrier between ferromagnetic electrodes, could offer important advantages for memory and logic devices, with four nonvolatile states that can be accessed resistively. For the ferroelectric tunnel barrier, hafnia-based films show the great advantage of large electrical polarization at nanoscale compared to the classic perovskite FE barrier, making it a very good candidate.</p>
+                    <p>Here we use the recently discovered ferroelectric Hf0.5Zr0.502 epitaxially grown on La0.7Sr0.3MnO3-buffered SrTiO3, to fabricate stand-alone, highly homogenous wire-bonded MFTJs devices exhibiting four-state memory functionality by magnetic and electric field switching. Moreover, we show that under electric field cycling of large enough magnitude, the TER can reach values as large as 10^6%. Concomitant with this TER enhancement, the devices develop electrical control of spin polarization, with sign reversal of the TMR effect. Our study points to the magneto-ionic effect as the main origin of the large TER and strong magneto-electric coupling.</p>
+                </div>
+                <div class="shorttext">
+                    <a href="https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.12.031001">Magnetic tunnel junctions based on ferroelectric Hf0.5Zr0.5O2 tunnel barriers</a>
+                    <p><span class="emphasis">Physical Review Applied 12</span>, 031001(2019)</p>
+                    <p>--Selected as <span class="emphasis">Editors' Suggestions</span></p>
+                </div>
+                <div class="shorttext">
+                    <a href="https://www.nature.com/articles/s41535-019-0201-0">Magneto-ionic control of spin polarization in multiferroic tunnel junctions</a>
+                    <p><span class="emphasis">npj Quantum Materials 4</span>, 62(2019)</p>
+                </div>
+            </article>
+            <div class="divider"></div>     
+            <article class="twocolumns">
+                <div class="paragraph">
+                    <h4>Nanosized ferroelectrics become a reality</h4>
+                    <p>Reducing the size of ferroelectric materials has been a research topic for more than 20 years. For ferroelectric materials to have any tangible application in microelectronics, ferroelectricity should be stabilized at nanoscopic sizes. Such nanosized-ferroelectrics became a reality with HfO2 based materials. This is also unconventional ferroelectricity because it becomes robust with decreasing size. In this work, we investigated the origins of this new-type of ferroelecticity. In the process we discovered a new polar rhombohedral phase in hafnia-based systems, that can be stabilized by large compressive strain from the substrates and the particle pressure due to nanoscopic sizes . These results also point towards arriving at guidelines to engineer this new-type of ferroelectricity in other types of simple oxides, potentially generating a vastly unexplored class of nanoscale ferroelectrics.</p>
+                    <p>
+                        <a href="https://www.nature.com/articles/s41563-018-0196-0">A rhombohedral ferroelectric phase in epitaxially strained Hf0.5Zr0.5O2 thin films</a>
+                        <br>
+                        Nature Materials 17, 1095-1100 (2018)
+                        <ul>
+                            <li>Featured in <a href="https://www.sciencedaily.com/releases/2018/10/181022124001.htm">ScienceDaily</a>, <a href="https://www.eurekalert.org/pub_releases/2018-10/uog-nfb101918.php">EurekAlert</a>,  <a href="https://phys.org/news/2018-10-nanosized-ferroelectrics-reality.html">Phys.org</a>, "Nanosized ferroelectrics become a reality " (Oct 2018)</li>
+                            <li>Featured in <a href="https://www.eenewspower.com/news/hafnium-nanoferrite-boost-memory-device-power">eeNews</a>, "Hafnium nanoferrite boost for memory device power" (Oct 2018)</li>
+                        </ul>
+                    </p>
+                </div>
+                <img alt="nanosized-ferroelectrics" src="images/nanosized-ferroelectrics-become-a-reality.png">  
+            </article>
+        </main>
+        <footer class="blank"></footer>
+    </body>
+</html>
