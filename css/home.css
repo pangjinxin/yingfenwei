@@ -1,0 +1,8 @@
+nav a.home {
+    color:white;
+    font-weight:bold;
+}
+div {
+    display:flex;
+    flex-flow: row nowrap;
+}

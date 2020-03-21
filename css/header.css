@@ -1,0 +1,43 @@
+body {
+    margin:0;
+    overflow-x: hidden;
+}
+
+nav.topnav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+}
+nav a {
+    text-decoration: none;
+    margin:10px;
+}
+nav a:link, nav a:visited{
+    color:gray;
+}
+nav a:hover, nav a:active {
+    color:white;
+}
+
+h3 {
+    font-family: 'PT Sans', serif;
+}
+
+main {
+    margin:5rem 10rem 0 10rem;
+    display:flex;
+    flex-flow: column;
+    min-width: calc(100% - 20rem);
+}
+.divider {
+    flex-grow: 1;
+    border-bottom: 1px solid silver;
+    margin: 1rem 0;
+}
+
+footer.blank {
+    padding: 2em 0;
+}
